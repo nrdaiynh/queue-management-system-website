@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Page</title>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+	
+	<script src="login.js"></script>
+</head>
+
+<style>
+body {
+  background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<body>
+	<center>
+
+	<h1 style="color:White;">Please log in first</h1>
+	<div id="header"> </div>
+
+	<div><input type="email" placeholder="email" id="email"/></div>
+	<div><input type="password" placeholder="password" id="password"/></div>
+
+
+	<div><button onclick="signIn()" id=signIn>Sign In </button></div>
+	<div><button onclick="signUp()" id=signUp>Sign Up </button></div>
+	
+
+	</center>
+</body>
+</html>
